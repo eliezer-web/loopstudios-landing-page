@@ -5,21 +5,17 @@
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px
 }
 
 header {
-    width: 100%;
+    
     color: $blanc;
     background: url(../images/desktop/image-hero.jpg);
-    margin-bottom: 9vh;
-
     ul {    
-
-     display: flex;
+    display: flex;
     flex-direction: row;
     align-items: flex-end;
-    
-    
     }
     li {
         text-align: end;
@@ -37,12 +33,12 @@ header {
        margin-top: 20VH;
        margin-left: 16vh;
        margin-right: 110vh;
+       padding:5px;
         text-align: center;
-       
-        border: 1vh solid $blanc;
+        border: solid 2px $blanc;
         font-size: 6vh;
-        
     } 
+
     nav{
         display: flex;
         flex-direction: row;
@@ -56,16 +52,17 @@ article{
         height: 80%;
         position: relative;
     .contentimg{
-       
-        
+        z-index: 1;   
     }
     .content{
-        
-       
+        position: absolute;
+        z-index: 2;
         background:$blanc;
-        margin-top: 10VH;
-        margin-left: 100vh;
-        margin-right: 7vh;
+        width: 50%;
+        height: 60%;
+        padding: 4%;
+        margin: 0% auto 0% 40%;
+        top: 40%;
         
         h2{
             font-family: 'Josefin Sans', sans-serif;

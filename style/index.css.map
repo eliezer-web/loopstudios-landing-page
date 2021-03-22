@@ -1,11 +1,12 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,GAAG;CAClB",
+    "mappings": "",
     "sources": [
         "index.scss",
         "variable.scss",
         "mixin.scss",
-        "font.scss"
+        "font.scss",
+        "placeholders.scss"
     ],
     "names": [],
     "file": "index.css"
